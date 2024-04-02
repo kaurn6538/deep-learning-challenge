@@ -11,13 +11,31 @@ The non-profit foundation Alphabet Soup wants a tool that can help it select the
 3. What variable(s) should be removed from the input data because they are neither targets nor features?
 *    Both 'EIN' and 'NAME' columns were dropped/removed, because they were neither targets nor features for the dataset.
 Compiling, Training, and Evaluating the Model
-
-1. How many neurons, layers, and activation functions did you select for your neural network model, and why?
+4. How many neurons, layers, and activation functions did you select for your neural network model, and why?
 *    In the first attempt, i used 8 hidden_nodes_layer1 and 5 hidden_nodes_layer2 -- these were just random guesses from which to iterate upon in the second try.
-2. Were you able to achieve the target model performance?
+5. Were you able to achieve the target model performance?
 *    I was not able to achieve the 75% model accuracy target
-3. What steps did you take in your attempts to increase model performance?
+6. What steps did you take in your attempts to increase model performance?
 *    I added more layers, removed more columns, added additional hidden nodes, and switched up the activation functions associated with each layer in an attempt to achieve higher model accuracy.
+7. What steps did you take in your attempts to increase model performance?
+
+§ I will attempt to:
+
+§ Adjust the input data to ensure that no variables or outliers are causing confusion in the model, such as:
+
+§ Dropping more or fewer columns.
+
+§ Creating more bins for rare occurrences in columns.
+
+§ Increasing or decreasing the number of values for each bin.
+
+§ Add more neurons to a hidden layer.
+
+§ Add more hidden layers.
+
+§ Use different activation functions for the hidden layers.
+
+§ Add or reduce the number of epochs to the training regimen.
 
 ## Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
 
