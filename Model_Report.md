@@ -20,6 +20,8 @@ For the first attempt, I used the relu activation function. There were two layer
 ![image](https://github.com/kaurn6538/deep-learning-challenge/assets/98873779/9190d071-76c5-463d-8f36-5905fb11d349)
 ![image](https://github.com/kaurn6538/deep-learning-challenge/assets/98873779/2ff9bc98-a355-487f-86f3-d4d7403f4829)
 
+## Final try
+Although the second attempt achieved 73.5% predictive accuracy, which is higher than 75%, I thought I would try changing the activation function from relu to LeakyReLU, to see if a even higher predictive accuracy score could be achieved. I kept everything the same, including the number of layers. With this model, the predictive accuracy was 77.2%.
 
 ## Data Preprocessing
 
