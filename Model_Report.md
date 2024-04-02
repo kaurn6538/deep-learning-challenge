@@ -8,10 +8,10 @@ Using my knowledge of TensorFlow and Keras, I designed a neural network model to
 ![image](https://github.com/kaurn6538/deep-learning-challenge/assets/98873779/bd3472ec-08a8-49b0-925e-d76ac5de90ff)
 
 ## Optimize the Model
-Using my knowledge of TensorFlow, I optimized my model to achieve a target predictive accuracy higher than 75%. This was achieved by dropping only the 'NAME' column of the database, adding more neurons to the hidden layers and more epochs.
+Using my knowledge of TensorFlow, I optimized my model to achieve a target predictive accuracy higher than 75%. This was achieved by Drop the non-beneficial ID columns, ASK_AMT of the database, adding more neurons to the hidden layers and more epochs.
 
 Second attempt
-For the second attempt, I used the same activation function relu, however increased the number of layers and the number of nodes for each layer. I also increased the number of epochs from 100 to 150, as I felt that it would help with achieving a higher than 75% accuracy. See image below.
+For the second attempt, I used the same activation function relu, however increased the  number of nodes for each layer, as I felt that it would help with achieving a higher than 75% accuracy. See image below.
 
 
 First attempt
