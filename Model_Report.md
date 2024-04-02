@@ -19,23 +19,23 @@ Compiling, Training, and Evaluating the Model
 *    I added more layers, removed more columns, added additional hidden nodes, and switched up the activation functions associated with each layer in an attempt to achieve higher model accuracy.
 7. What steps did you take in your attempts to increase model performance?
 
-§ I will attempt to:
+     § I will attempt to:
 
-§ Adjust the input data to ensure that no variables or outliers are causing confusion in the model, such as:
+     § Adjust the input data to ensure that no variables or outliers are causing confusion in the model, such as:
 
-§ Dropping more or fewer columns.
+     § Dropping more or fewer columns.
 
-§ Creating more bins for rare occurrences in columns.
+     § Creating more bins for rare occurrences in columns.
 
-§ Increasing or decreasing the number of values for each bin.
+     § Increasing or decreasing the number of values for each bin.
 
-§ Add more neurons to a hidden layer.
+     § Add more neurons to a hidden layer.
 
-§ Add more hidden layers.
+     § Add more hidden layers.
 
-§ Use different activation functions for the hidden layers.
+    § Use different activation functions for the hidden layers.
 
-§ Add or reduce the number of epochs to the training regimen.
+    § Add or reduce the number of epochs to the training regimen.
 
 ## Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
 
