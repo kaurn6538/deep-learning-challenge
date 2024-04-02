@@ -2,6 +2,13 @@
 
 The non-profit foundation Alphabet Soup wants a tool that can help it select the applicants for funding with the best chance of success in their ventures. With our knowledge of machine learning and neural networks, we will use the features in the provided dataset to create a binary classifier that can predict whether applicants will be successful if funded by Alphabet Soup.
 
+## Compile, Train, and Evaluate the Model
+Using my knowledge of TensorFlow and Keras, I designed a neural network model to create a binary classification model that can predict if an Alphabet Soup-funded organization will be successful based on the features in the dataset. Once I completed this step, I compiled, trained, and evaluated my binary classification model to calculate the model’s loss and accuracy.
+![image](https://github.com/kaurn6538/deep-learning-challenge/assets/98873779/99a7e8fd-4c62-4a11-83e1-11ee111256fb)
+
+
+First attempt
+For the first attempt, I used the relu activation function. There were two layers - layer 1 had 70 hidden nodes and layer 2 had 30 hidden nodes. Epochs was 100. For the outer layer, I used sigmoid.
 ## Data Preprocessing
 
 1. What variable(s) are the target(s) for your model?
