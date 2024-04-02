@@ -5,10 +5,22 @@ The non-profit foundation Alphabet Soup wants a tool that can help it select the
 ## Compile, Train, and Evaluate the Model
 Using my knowledge of TensorFlow and Keras, I designed a neural network model to create a binary classification model that can predict if an Alphabet Soup-funded organization will be successful based on the features in the dataset. Once I completed this step, I compiled, trained, and evaluated my binary classification model to calculate the model’s loss and accuracy.
 ![image](https://github.com/kaurn6538/deep-learning-challenge/assets/98873779/99a7e8fd-4c62-4a11-83e1-11ee111256fb)
+![image](https://github.com/kaurn6538/deep-learning-challenge/assets/98873779/bd3472ec-08a8-49b0-925e-d76ac5de90ff)
+
+## Optimize the Model
+Using my knowledge of TensorFlow, I optimized my model to achieve a target predictive accuracy higher than 75%. This was achieved by dropping only the 'NAME' column of the database, adding more neurons to the hidden layers and more epochs.
+
+Second attempt
+For the second attempt, I used the same activation function relu, however increased the number of layers and the number of nodes for each layer. I also increased the number of epochs from 100 to 150, as I felt that it would help with achieving a higher than 75% accuracy. See image below.
 
 
 First attempt
-For the first attempt, I used the relu activation function. There were two layers - layer 1 had 70 hidden nodes and layer 2 had 30 hidden nodes. Epochs was 100. For the outer layer, I used sigmoid.
+For the first attempt, I used the relu activation function. There were two layers - layer 1 had 8 hidden nodes and layer 2 had 5 hidden nodes. Epochs was 100. For the outer layer, I used sigmoid.
+
+![image](https://github.com/kaurn6538/deep-learning-challenge/assets/98873779/9190d071-76c5-463d-8f36-5905fb11d349)
+![image](https://github.com/kaurn6538/deep-learning-challenge/assets/98873779/2ff9bc98-a355-487f-86f3-d4d7403f4829)
+
+
 ## Data Preprocessing
 
 1. What variable(s) are the target(s) for your model?
